@@ -26,4 +26,11 @@ def test_negative_weight():
     with pytest.raises(ValueError):
         kg_to_g(-5)
 
+@pytest.mark.parametrize(
+    "invalid_weight",
+    [True, "abc", float("nan"), float("inf")]
+)
+def test_invalid_inputs(invalid_weight):
+    with pytest.raises(ValueError):
+        kg_to_g(invalid_weight)
         
