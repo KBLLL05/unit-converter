@@ -1,5 +1,5 @@
 # unit-converter
-Project status: Development in progress.
+Project status: Temperature, length, and weight conversions implemented and tested.
 
 A Python unit converter for temperature, length, and weight.
 
