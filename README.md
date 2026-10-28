@@ -1,2 +1,3 @@
 # unit-converter
-Project status: Development in progress.
+Project status: Temperature conversion implemented and tested.
+
