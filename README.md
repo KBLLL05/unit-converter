@@ -1,2 +1,3 @@
 # unit-converter
-Project status: Development in progress.
+
+Project status: Weight conversion completed and tested; final integration review in progress.
